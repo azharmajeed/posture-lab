@@ -1,0 +1,12 @@
+{
+  "inference": {
+    "backend": "coral",
+    "endpoint": "http://127.0.0.1:8765",
+    "token_env": "POSTURE_CORAL_TOKEN",
+    "timeout_seconds": 2,
+    "jpeg_quality": 80
+  },
+  "camera": {"index": 0, "width": 640, "height": 480, "inference_fps": 8},
+  "posture": {"confidence": 0.6, "calibration_seconds": 3, "bad_seconds": 5, "cooldown_seconds": 30},
+  "notifications": true
+}

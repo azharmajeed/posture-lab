@@ -1,0 +1,36 @@
+# uv/Python environments and build outputs
+.venv/
+.uv-cache/
+.uv-python/
+build/
+dist/
+__pycache__/
+*.egg-info/
+
+# Test/tool caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Downloaded models, camera diagnostics, generated audio, and personal feedback
+models/
+.run/
+.state/
+*.log
+local.json
+
+# Local credentials (keep sample environment files shareable)
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.pfx
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/

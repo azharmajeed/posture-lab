@@ -1,0 +1,16 @@
+{
+  "inference": {"backend": "cpu", "model_path": "models/pose_landmarker_lite.task"},
+  "camera": {"index": 0, "width": 640, "height": 480, "inference_fps": 10},
+  "posture": {"confidence": 0.6, "calibration_seconds": 3, "bad_seconds": 5, "cooldown_seconds": 30},
+  "reminders": {
+    "mode": "roast",
+    "tts_engine": "piper",
+    "english_model": "models/voices/en_US-lessac-medium.onnx",
+    "hindi_model": "models/voices/hi_IN-pratham-medium.onnx",
+    "volume": 0.7,
+    "speed": 1.0,
+    "roast_intensity": "spicy",
+    "muted": false
+  },
+  "notifications": true
+}

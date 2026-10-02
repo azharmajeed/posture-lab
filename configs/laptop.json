@@ -1,0 +1,6 @@
+{
+  "inference": {"backend": "cpu", "model_path": "models/pose_landmarker_lite.task"},
+  "camera": {"index": 0, "width": 640, "height": 480, "inference_fps": 10},
+  "posture": {"confidence": 0.6, "calibration_seconds": 3, "bad_seconds": 5, "cooldown_seconds": 30},
+  "notifications": true
+}
